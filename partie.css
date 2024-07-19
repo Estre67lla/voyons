@@ -1,0 +1,427 @@
+/* partie.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #d63bbc;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+nav .logo img {
+    height: 40px;
+}
+
+nav .nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav .nav-links li {
+    margin-left: 20px;
+}
+
+nav .nav-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    background: url('image/Netsystem.jpeg') no-repeat center center/cover;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #d63bbc;
+}
+
+.hero-content {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.5em;
+    margin: 20px 0;
+}
+
+.btn-primary {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #d63bbc;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.about, .services, .missions, .programs {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.about h2, .services h2, .missions h2, .programs h2 {
+    margin-bottom: 20px;
+}
+
+.service {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.missions, .programs {
+    padding: 50px 20px;
+    background-color: #f88ee4;
+    text-align: center;
+}
+
+.missions h2, .programs h2 {
+    margin-bottom: 20px;
+}
+
+.missions ul, .programs ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.missions ul li, .programs ul li {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.mission-image, .program-image {
+    margin-top: 20px;
+}
+
+.mission-image img, .program-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+/* Dans votre fichier CSS, ajoutez ces styles pour les cartes des programmes formateurs */
+.programs-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+
+
+rtmission
+/* Styles CSS associés */
+.mission-section {
+    padding: 50px 0;
+    background-color: #ef72d2;
+}
+
+.mission-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.section-title {
+    color: #333;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.section-description {
+    color: #666;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.mission-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.mission-item {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+   background-color: #d63bbc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 0 10px;
+}
+
+.mission-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.mission-title {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.mission-description {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+
+.program-card {
+    width: 300px;
+    background-color: #d63bbc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #d63bbc;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+.program-image {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.program-info {
+    padding: 20px;
+}
+
+.program-title {
+    font-size: 24px;
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+.program-description {
+    font-size: 16px;
+    color: #666666;
+    line-height: 1.6;
+}
+
+.program-link {
+    display: inline-block;
+    background-color: #f384d9;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.program-link:hover {
+    background-color: #0056b3;
+}
+.contact-section {
+    background: #ee77ea;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+/* Styles CSS associés */
+.about-us-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+    background-color: #eb76be;
+}
+
+.about-us-content {
+    flex: 1;
+    padding: 20px;
+}
+
+.about-us-image {
+    flex: 1;
+    text-align: center;
+}
+
+.about-us-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+/* Styles CSS associés */
+.services-section {
+    padding: 50px 0;
+    background-color: #ef72ce;
+}
+
+.services-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.section-title {
+    color: #333;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.section-description {
+    color: #666;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.services-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.service-item {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+    background-color: #ef72bb;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 0 10px;
+}
+
+.service-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.service-title {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.service-description {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+
+.section-title {
+    color: #333;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.section-description {
+    color: #666;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.contact-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.contact-content h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.contact-content .hours {
+    margin-bottom: 20px;
+}
+
+.contact-content .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact-content .contact-form input,
+.contact-content .contact-form textarea {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.contact-content .contact-form .btn {
+    background-color: #ed81cd;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.contact-content .contact-form .btn:hover {
+    background-color: #777;
+}
+
+.footer {
+    background: #333;
+    color: #e86dd7;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 0.9em;
+}
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .hero-content h1 {
+        font-size: 1.5em;
+    }
+    .hero-content p {
+        font-size: 0.9em;
+    }
+    .contact-content h2 {
+        font-size: 1.5em;
+    }
+}
+
+

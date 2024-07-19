@@ -1,0 +1,80 @@
+.........<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Inscription </title>
+    <link rel="stylesheet" href="form.css">
+    
+       
+</head>
+<body>
+   
+    <nav>
+        <img class="logo" src="image/nanat.jpeg" alt="logo">
+    </nav>
+ <section>
+    <header>
+        <h1>Inscription</h1>
+    </header>
+    <form action="/submit" method="post">
+        <label for="nom">Nom:</label>
+        <input type="text" id="nom" name="nom" required placeholder="Nom">
+
+        <label for="prenom">Prénom:</label>
+        <input type="text" id="prenom" name="prenom" required placeholder="Prénom">
+
+        <label for="datedenaissance">date de naissance:</label>
+        <input type="date" min="" max="" id="datedenaissance" name="datedenaissance" required placeholder="">
+
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required placeholder="Age">
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required placeholder="E-mail">
+
+        <label for="sexe">Sexe:</label>
+        <select name="sexe" id="sexe" >
+           <option value="">sexe</option> 
+           <option value="masculin">masculin</option> 
+           <option value="Feminin">Feminin</option> 
+        </select>
+
+        <label for="diplome">Dernier Diplôme Obtenu:</label>
+        <select name="diplome" id="diplome">
+            <option value="">selectionner votre niveau</option>
+            <option value="BAC2">BAC2</option>
+            <option value="licence">licence</option>
+            <option value="master">master</option>
+            
+        </select>
+
+        <label for="parcours">Parcours:</label>
+        <input type="text" id="parcours" name="parcours" required placeholder="Parcours">
+
+        <label for="filiere">Filière:</label>
+        <input type="text" id="filiere" name="filiere" required placeholder="Filière" >
+
+        <label for="nationalité">Nationalité:</label>
+        <input type="text" id="nationalité" name="nationalité" required placeholder="Nationalité">
+
+        <label for="ecole">Ecole de provenance:</label>
+        <input type="text" id="ecole" name="ecole" required placeholder="école de provenance">
+        
+
+        <label for="telephone">Numéro de Téléphone:</label>
+        <input type="number" id="telephone" name="telephone"  required placeholder="Tel">
+
+        <label for="boitepostal"> boite postale:</label>
+        <input type="number" id="boitepostal" name="boitepostal" required placeholder="boite postale" >
+
+        <label for="adresse">Adresse:</label>
+        <textarea id="adresse" name="adresse" required placeholder="adresse"></textarea>
+
+        <input type="submit" value="s'inscrire">
+        
+
+    </form>
+ </section>
+</body>
+</html>
